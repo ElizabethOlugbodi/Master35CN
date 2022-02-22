@@ -5,10 +5,10 @@
 // Let’s add a list of favourite songs to our 
 // person object and log them to the console.
 
-const person = {
-    name: "Elizabeth",
-    age: "13"
-}
+// const person = {
+//     name: "Elizabeth",
+//     age: "13"
+// }
 
 // Class Activity 2
 // Let’s create an alarm.
