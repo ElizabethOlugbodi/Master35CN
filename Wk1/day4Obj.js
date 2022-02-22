@@ -19,30 +19,53 @@ const person = {
 // If day is Saturday or Sunday, set alarm to weekendAlarm.
 // If day is a weekday, set alarm to weekdayAlarm. 
 
-let alarm = ""
-let day = "Monday"
+// let alarm = ""
+// let day = "Monday"
 
-const alarm = {
-    weekendAlarm: "No alarm needed",
-    weekdayAlarm: "Get up at 7am"
+// const alarm = {
+//     weekendAlarm: "No alarm needed",
+//     weekdayAlarm: "Get up at 7am"
 
-}
+// }
+// if (day == "Saturday" || day == "Sunday"){
+//     console.log(alarmClock.weekendAlarm)
+// }
+// else {
+//     console.log(alarmClock.weekdayalarm)
+// }
 
+
+// // Activity 1
+// const person = {
+//     name: "Babs",
+//     age: 35,
+//     favouriteSongs: [
+//     "Ocean Drive", "Flying without Wings",
+//     "Bad Habits",
+//     "By your Grace"
+//     ],
+//     sayHi(){
+//         return `Hello my name is ${this.name}`
+    
+//     }
+// }
+
+// console.log(person.sayHi());
 
 //Activity 2
 //Create an object called pet with the key values of: name, typeOfPet, age, colour And methods called eat and drink. 
 //They should return a string saying [Your Pet Name] is eating/drinking. 
 
 
-// let pet ={
-//     name:'Chewbacca',
-//     pettype:'cat',
-//     age:'unknown',
-//     colour:'brown',
-//     eat:()=>{
-//         console.log(`${pet.name} is eating`)},
-//     drink:()=>{
-//         console.log(`${pet.name} is drinking`)}
-// };
+let pet ={
+    name:'Smarty',
+    typeOfPet:'Dog',
+    age:'5 Years',
+    colour:'Black and Brown',
+    eat:()=>{
+        console.log(`${pet.name} is eating`)},
+    drink:()=>{
+        console.log(`${pet.name} is drinking`)}
+};
 
-// console.log(pet.eat());
+console.log(pet.eat());
